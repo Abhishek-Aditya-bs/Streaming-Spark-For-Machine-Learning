@@ -1,8 +1,6 @@
 # SSML Spark Streaming for Machine Learning
 
-<img src="https://github.com/iVishalr/SSML-spark-streaming-for-machine-learning/blob/main/images/CIFAR10.png" alt="CIFAR10-image" height="300px" width="1000px"></img>
-
-UE19CS322 Big Data Project
+<img src="https://github.com/Abhishek-Aditya-bs/Streaming-Spark-For-Machine-Learning/blob/main/images/CIFAR10.png" alt="CIFAR10-image" height="300px" width="1000px"></img>
 
 Team Members:
 1. [Abhishek Aditya BS](https://github.com/Abhishek-Aditya-bs)
@@ -132,3 +130,39 @@ Execute the following command in terminal to execute the driver code.
 ```bash
 $ spark-submit ./main.py > output.txt 2>outputlog.txt
 ```
+
+# Models Built 
+
+1. MultiLayer Perceptron (MLP)
+2. SVM
+3. ANN
+4. K-MEANS
+5. DeepImage MLP
+6. DeepImage SVM
+7. DeepImage K-Means
+
+All the models were trained and tested for different batch sizes of 64, 128, and 256. Hyperparameter Tuning was done all the models.
+
+# Results Obtained
+
+<p align='center'><strong><em> Accuracy Comparision of all the models on test dataset </em></strong></p>
+
+![](https://github.com/Abhishek-Aditya-bs/Streaming-Spark-For-Machine-Learning/blob/main/plots/bargraph-Accuracy.png)
+
+<p align='center'><strong><em> Loss Comparision of all the models on test dataset </em></strong></p>
+
+![](https://github.com/Abhishek-Aditya-bs/Streaming-Spark-For-Machine-Learning/blob/main/plots/bargraph-Loss.png)
+
+<p align='center'><strong><em> Accuracy Comparision of K-Means vs DeepImage K-Means on test dataset </em></strong></p>
+
+![](https://github.com/Abhishek-Aditya-bs/Streaming-Spark-For-Machine-Learning/blob/main/plots/bargraph-Kmeans-Accuracy.png)
+
+All the other metrics comparisions among the models can be found in [plots](https://github.com/Abhishek-Aditya-bs/Streaming-Spark-For-Machine-Learning/tree/main/plots)
+
+Any issues found or changes to be made feel free to reach out to us or create a Pull Request.
+
+# License
+
+MIT
+
+
