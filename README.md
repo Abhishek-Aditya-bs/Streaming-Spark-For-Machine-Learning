@@ -2,11 +2,6 @@
 
 <img src="https://github.com/Abhishek-Aditya-bs/Streaming-Spark-For-Machine-Learning/blob/main/images/CIFAR10.png" alt="CIFAR10-image" height="300px" width="1000px"></img>
 
-Team Members:
-1. [Abhishek Aditya BS](https://github.com/Abhishek-Aditya-bs)
-2. [T Vijay Prashant](https://github.com/tvijayprashant)
-3. [Vishal R](https://github.com/iVishalr)
-4. [Yashas KS](https://github.com/Yashas120)
 
 ## CIFAR10 Dataset
 
